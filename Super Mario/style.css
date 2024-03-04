@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo-mario {
+  width: 450px;
+}
+.mario-luigi {
+  height: 800px;
+}
+.caixa-principal {
+  width: 40%;
+}
+.video-mario {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+video {
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.mascara-video {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.7) 50%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+}
+p {
+  color: white;
+  margin-top: 10px;
+  font-size: 30px;
+}
+button {
+  height: 60px;
+  width: 240px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(255, 0, 0, 0.9) 50%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  border: none;
+  font-size: 30px;
+  color: white;
+  border-radius: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.fale-conosco {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+  gap: 20px;
+  position: fixed;
+  left: -350px;
+  transition: left 1s linear;
+  z-index: 3;
+}
+input {
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 10px;
+  outline-color: chartreuse;
+}
+.text {
+  height: 80px;
+  padding-left: 10px;
+}
+.but {
+  width: 300px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(255, 0, 0, 0.9) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+.mascara-form {
+  visibility: hidden;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(255, 0, 0, 0.7) 50%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+}
+
+@media screen and (max-width: 1050px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    width: 100vw;
+  }
+  .logo-mario {
+    width: 220px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .mario-luigi {
+    height: 300px;
+    margin-left: 280px;
+    margin-top: 700px;
+  }
+
+  .pa {
+    font-size: 30px;
+    height: 10px;
+    padding: 15px;
+  }
+  .para {
+    font-size: 20px;
+    height: 10px;
+    padding: 15px;
+    margin-top: 350px;
+    width: 150%;
+  }
+
+  video {
+    position: fixed;
+  }
+
+  button {
+    margin-top: 320px;
+    padding-left: 10px;
+  }
+
+  .fale-conosco {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    gap: 20px;
+    position: fixed;
+    left: -350px;
+    transition: left 1s linear;
+    z-index: 3;
+  }
+  input {
+    height: 40px;
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    outline-color: chartreuse;
+  }
+  .text {
+    height: 100px;
+    width: 270px;
+    padding-left: 10px;
+    border: 1px solid gray;
+  }
+  .but {
+    width: 270px;
+    margin-top: 50px;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(255, 0, 0, 0.9) 50%,
+      rgba(0, 0, 0, 0.8) 100%
+    );
+  }
+  .mascara-form {
+    visibility: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 2px;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(255, 0, 0, 0.7) 50%,
+      rgba(0, 0, 0, 0.7) 100%
+    );
+  }
+}
+
+@media screen and (max-width: 750px) {
+  * {
+    margin: 0;
+    padding: 0;
+    display: cell;
+  }
+  body {
+    display: block;
+  }
+  .logo-mario {
+    width: 180px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .pa {
+    font-size: 20px;
+    height: 10px;
+    text-align: center;
+  }
+  .para {
+    font-size: 15px;
+    height: 10px;
+    padding: 15px;
+    margin-top: 200px;
+    width: 150%;
+  }
+  button {
+    margin-top: 300px;
+    padding-left: 10px;
+    font-size: 25px;
+    margin-left: 60px;
+  }
+  video {
+    width: 100vw;
+    position: static;
+  }
+  .mario-luigi {
+    height: 250px;
+    margin-left: 80px;
+    margin-top: 70px;
+  }
+  .fale-conosco {
+    height: 200px;
+    width: 150px;
+  }
+}
