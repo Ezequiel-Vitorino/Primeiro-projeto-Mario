@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    rgb(1, 1, 83),
+    rgb(1, 1, 128),
+    rgb(97, 0, 97),
+    rgb(0, 0, 0)
+  );
+}
+
+header {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.link-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400px;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.875px;
+  color: #ffffff;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.button-header {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 100px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(rgb(138, 1, 192), rgb(0, 0, 0));
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 6px;
+  width: 124px;
+  height: 51px;
+  border: 10px;
+  cursor: pointer;
+}
+
+img {
+  margin: 150px 0 0 110px;
+  display: inline-block;
+  border-radius: 150px;
+}
+
+div {
+  display: inline-block;
+  margin-left: 85px;
+  width: 493px;
+  background: transparent;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 82px;
+  letter-spacing: 0.596154px;
+  color: #a8a8a8;
+  background: transparent;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  color: #a8a8a8;
+  margin-top: 47px;
+  margin-bottom: 55px;
+  background: transparent;
+}
+.button1 {
+  font-family: "Poppins";
+  
+  font-size: 20px;
+  font-weight: 100px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(rgb(138, 1, 192), rgb(0, 0, 0));
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 6px;
+  width: 124px;
+  height: 51px;
+  border: 10px;
+  cursor: pointer;
+}
+.button2 {
+  font-family: "Poppins";
+  font-size: 20px;
+  margin-right: 50px;
+  font-weight: 100px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(rgb(138, 1, 192), rgb(0, 0, 0));
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 6px;
+  width: 124px;
+  height: 51px;
+  border: 10px;
+  cursor: pointer;
+}
